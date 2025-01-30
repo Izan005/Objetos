@@ -104,6 +104,6 @@ public class Persona {
 
     @Override
     public String toString(){
-        return "Paciente [nombre=" + nombre + " apellido= " + apellido+ " edad= " + edad + " ciudad= " + ciudad + " dni= " + dni + " profesión= " + profesion + " peso= " + peso +"]";
+        return "Persona [nombre=" + getNombre() + " apellido= " + getApellido()+ " edad= " + getEdad() + " ciudad= " + getEdad() + " dni= " + getDni() + " profesión= " + getProfesion() + " peso= " + getPeso() +"]";
     }
 }
