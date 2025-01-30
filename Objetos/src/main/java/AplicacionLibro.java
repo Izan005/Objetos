@@ -1,6 +1,5 @@
-import org.example.Editorial;
-import org.example.Libro;
-import org.example.Estudiante;
+import org.example.biblioteca.Editorial;
+import org.example.biblioteca.Libro;
 
 public class AplicacionLibro {
 

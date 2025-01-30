@@ -1,4 +1,4 @@
-package org.example;
+package org.example.biblioteca;
 
 public class Libro {
     public static int numlibro = 0;

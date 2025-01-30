@@ -1,7 +1,6 @@
-package org.example;
+package org.example.biblioteca;
 
 import java.util.ArrayList;
-import java.util.ListResourceBundle;
 
 public class Editorial {
     private String nombre;
