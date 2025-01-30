@@ -4,7 +4,7 @@ import org.example.biblioteca.*;
 
 import java.util.Scanner;
 
-import static org.example.biblioteca.Estudiante.CORREO_FORMAT;
+//import static org.example.biblioteca.Estudiante.CORREO_FORMAT;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -129,14 +129,14 @@ public class Main {
         }
     }
 
-    public static boolean validarCorreo(String email) {
-
-        if(email.matches("^[A-Za-z0-9+_.-]+"+CORREO_FORMAT)){
-            return true;
-        } else {
-           return false;
-        }
-
-    }
+//    public static boolean validarCorreo(String email) {
+//
+//        if(email.matches("^[A-Za-z0-9+_.-]+"+CORREO_FORMAT)){
+//            return true;
+//        } else {
+//           return false;
+//        }
+//
+//    }
 
 }
