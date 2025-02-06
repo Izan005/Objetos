@@ -5,32 +5,6 @@ import java.util.ArrayList;
 public class AppProgramas {
     public static void main(String[] args) {
 
-
-//        Cadena cadena1 = new Cadena("antena 3");
-//        Programa programa1 = new Programa("El Hormiguero", 2,  "Dir1");
-//        programa1.setCadena(cadena1);
-//        Programa programa2 = new Programa("La Revuelta", 2, "Dir2");
-//        programa1.agregarInvitado("José", "Cómico", 2);
-//        programa2.agregarInvitado("José", "Cómico", 3);
-//        programa1.agregarEmpleado("Pepe", "presentador");
-//        programa1.agregarEmpleado("Pepo", "presentador");
-//        programa1.agregarInvitado("José", "Cómico", 3);
-//        programa1.agregarInvitado("Paco", "Ferralla", 3);
-//        programa2.agregarInvitado("Paco", "Ferralla", 3);
-//        cadena1.agregarPrograma(programa1);
-//        System.out.println(programa1);
-//        cadena1.borrarPrograma(programa1);
-//        System.out.println(programa1);
-//        System.out.println(cadena1);
-//        System.out.println(programa1.getListaInvitados());
-//        System.out.println(programa1.invitadosTemporada(3));
-//        System.out.println(programa1.buscarInvitado("José"));
-//        System.out.println(programa2.buscarInvitado("José"));
-//        System.out.println(programa1.invitadosTemporada(3));
-//        System.out.println(programa1.vecesInvitado("José"));
-//        System.out.println(programa1.rastrearInvitado("José"));
-//        Programa.invitadoAntes("ppep", programa1, programa2);
-
 /**
  * PRUEBAS
  */
@@ -62,11 +36,11 @@ public class AppProgramas {
 
         //Creación de una cadena y un programa, añadir un empleado sin un cargo que sea director, técnico,
         // presentador o colaborador
-        Cadena antena3 = new Cadena("antena3");
-        Programa el_hormiguero = new Programa("El Hormiguero", antena3, 11, "Pablo Motos");
-        System.out.println(el_hormiguero);
-        el_hormiguero.agregarEmpleado("Jorge", "paco");
-        System.out.println(el_hormiguero);
+//        Cadena antena3 = new Cadena("antena3");
+//        Programa el_hormiguero = new Programa("El Hormiguero", antena3, 11, "Pablo Motos");
+//        System.out.println(el_hormiguero);
+//        el_hormiguero.agregarEmpleado("Jorge", "paco");
+//        System.out.println(el_hormiguero);
 
         //Pruebas de la función invitadosTemporada();
 //        Cadena antena3 = new Cadena("antena3");
