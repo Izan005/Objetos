@@ -1,0 +1,49 @@
+@startuml
+package "org.example.herencia_ejemplos.ejercicicio1_redes_sociales" {
+
+    class Usuario {
+        - String nombre
+        - int edad
+        - String nombreUsuario
+        - int seguidores
+        + Usuario(String nombre, int edad, String nombreUsuario, int seguidores)
+        + mostrarInfo() : void
+    }
+
+    class Basico {
+        + Basico(String nombre, int edad, String nombreUsuario, int seguidores)
+    }
+
+    class Influencer {
+        - ArrayList<String> colaboraciones
+        + Influencer(String nombre, int edad, String nombreUsuario, int seguidores)
+        + añadirColaboraciones(String ... nombre) : void
+        + mostrarInfo() : void
+        + toString() : String
+    }
+
+    class Streamer {
+        - int numero_retransmisiones
+        - int horas_directo
+        + Streamer(String nombre, int edad, String nombreUsuario, int seguidores, int numero_retransmisiones, int horas_directo)
+        + mostrarInfo() : void
+    }
+
+    class Persona {
+        - String nombre
+        - int edad
+        + Persona(String nombre, int edad)
+    }
+
+    class Asistente {
+        - String entrada
+        + Asistente(String nombre, int edad, String entrada)
+    }
+
+
+    Usuario <|-- Basico
+    Usuario <|-- Influencer
+    Usuario <|-- Streamer
+    Persona <|-- Asistente
+}
+@enduml

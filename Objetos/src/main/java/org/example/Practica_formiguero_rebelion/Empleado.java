@@ -39,7 +39,7 @@ public class Empleado {
      */
     public String calcularId() {
         return String.format("EP%03d", numEmpleado);
-}
+    }
 
     /**
      * Función que recibe el cargo establecido en el constructor y comprueba que sea director, técnico, presentador
