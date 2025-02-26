@@ -70,6 +70,8 @@ public class AppDispositivos {
                 di.mostrarEstado();
                 di.apagar();
                 System.out.println("------------------------");
+
+
             }
         }
     }

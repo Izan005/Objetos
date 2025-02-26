@@ -1,6 +1,7 @@
 package org.example.dispositivos_inteligentes;
 
 public class AireAcondicionado extends Dispositivo implements ControlRemoto{
+
     public AireAcondicionado(String nombre) {
         super(nombre);
     }
